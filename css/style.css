@@ -1,0 +1,50 @@
+
+
+body { background-color:rgb(143, 134, 134);}
+header{text-align:center;
+padding: 30px ;
+border: rgb(168, 168, 168)}
+
+nav ul li { display: inline-block;
+padding: 20px 15px;
+font-size: 30px }
+
+h1 {
+background-color:whitesmoke;
+color:rgb(4, 122, 4);
+padding:30px 50px 0;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+
+}
+
+nav{background-color:grey;
+}
+nav a{
+color:green;
+font: size 30px;
+padding: 10px 5px 0;
+}
+
+p{ font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 54, 4);
+    line-height: 30px;
+    background: indianred;
+  
+}
+
+h3 {
+    background-color:indianred;
+    color:rgb(2, 27, 2);
+    padding:30px 50px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    }
+
+    h4{ font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(4, 54, 4);
+
+
+    }
