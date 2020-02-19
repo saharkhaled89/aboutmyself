@@ -5,7 +5,7 @@ console.log('user name = ' + isName);
 alert(' welcome to my page' + isName);
 
 
-
+function myQuestion1(){
 var study = prompt('Am I a chemical engineer?').toLocaleLowerCase();
 if (study === 'yes' || study === 'y') {
   console.log('yes thats correct');
@@ -16,7 +16,10 @@ if (study === 'yes' || study === 'y') {
   alert('no thats not correct' + study);
 }
 
+}
+myQuestion1();
 
+function myQuestion2(){
 
 var myName = prompt('my names sahar?').toLocaleLowerCase();
 if (myName === 'yes' || myName === 'y') {
@@ -29,6 +32,13 @@ if (myName === 'yes' || myName === 'y') {
   alert('no thats not correct' + myName);
 }
 
+}
+
+myQuestion2();
+
+
+function myQuestion3(){
+
 var work = prompt('My WORK EXPERIENCE Facilitator of mathematics and science ?').toLocaleLowerCase();
 if (work === 'yes' || work === 'y') {
   console.log('yes thats correct my work EXPERIENCE Facilitator of mathematics and science');
@@ -40,6 +50,12 @@ if (work === 'yes' || work === 'y') {
 }
 
 
+}
+ myQuestion3();
+
+
+ function myQuestion4(){
+
 var project = prompt('is my project Generate bio-gas and fertilizers from organic waste ?').toLocaleLowerCase();
 if (project === 'yes' || project === 'y') {
   console.log('yes thats correct my project Generate bio-gas and fertilizers from organic waste  ');
@@ -50,6 +66,11 @@ if (project === 'yes' || project === 'y') {
   alert('no thats not correct' + project);
 }
 
+ }
+ myQuestion4();
+
+
+function myQuestion5(){
 
 
 var graduate = prompt('Is the graduation project name The effect of temperature and PH on settlability ?').toLocaleLowerCase();
@@ -62,10 +83,19 @@ if (graduate === 'yes' || graduate === 'y') {
   alert('no thats not correct' + graduate);
 }
 
+}
+myQuestion5();
+
+
+
 var yourname = prompt('whats your name?');
 console.log(' user name = ' + yourname);
 alert(' welcome to my page' + yourname);
 document.write('welcome to my page  ' + yourname);
+
+
+function myQuestion6(){
+
 
 var userNumber = parseInt(prompt('what is my best number? choose from 1 to 7'));
 
@@ -87,6 +117,11 @@ for (var i = 0; i <= 3; i++) {
   }
 }
 alert('Correct answer=3');
+
+}
+ myQuestion6();
+
+ function myQuestion7(){
 
 
 var myColor = ['white', 'blue', 'red', 'black', 'green', 'pink', 'silver'];
@@ -113,6 +148,9 @@ for (var i = 0; i < 6; i++) {
     break;
   }
 }
+ }
+myQuestion7();
+
 
 alert(myColor);
 alert('your Degree' + Degree);
