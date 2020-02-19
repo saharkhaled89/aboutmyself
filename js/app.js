@@ -89,7 +89,7 @@ for (var i = 0; i <= 3; i++) {
 alert('Correct answer=3');
 
 
-var myColor = ['white', 'blue', 'red', 'black', 'green', 'pink', 'silver']; 
+var myColor = ['white', 'blue', 'red', 'black', 'green', 'pink', 'silver'];
 var userColor = prompt('what is my favorite color?');
 var count = 0;
 console.log(userColor);
@@ -97,7 +97,7 @@ for (var i = 0; i < 6; i++) {
   for (var j = 0; j <= myColor.length - 1; j++) {
     if (userColor === myColor[j]) {
       alert('correct');
-      Degree=Degree+1;
+      Degree = Degree+1;
       break;
     }
     else {
