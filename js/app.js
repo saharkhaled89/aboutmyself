@@ -97,7 +97,7 @@ for (var i = 0; i < 6; i++) {
   for (var j = 0; j <= myColor.length - 1; j++) {
     if (userColor === myColor[j]) {
       alert('correct');
-      Degree=Degree+1
+      Degree=Degree+1;
       break;
     }
     else {
