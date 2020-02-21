@@ -1,50 +1,117 @@
 
 
-body { background-color:rgb(143, 134, 134);}
-header{text-align:center;
-padding: 30px ;
-border: rgb(168, 168, 168)}
+body{
 
-nav ul li { display: inline-block;
-padding: 20px 15px;
-font-size: 30px }
-
-h1 {
-background-color:whitesmoke;
-color:rgb(4, 122, 4);
-padding:30px 50px 0;
-font-family: 'Times New Roman', Times, serif;
-font-size: 30px;
+font-size: 19px;
+list-style: height 20px;
+word-spacing: 1px;
+background-color:rgb(48, 46, 46);
 
 }
 
-nav{background-color:grey;
-}
-nav a{
-color:green;
-font: size 30px;
-padding: 10px 5px 0;
-}
+.my-head {
+    background-color: gray;
+    padding: 2px 41px;
+    position: sticky;
+    color: wheat;
 
-p{ font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(4, 54, 4);
-    line-height: 30px;
-    background: indianred;
-  
 }
 
-h3 {
-    background-color:indianred;
-    color:rgb(2, 27, 2);
-    padding:30px 50px 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:25px;
-    }
+nav ul li {
+display: inline-block;
+}
 
-    h4{ font-size: 25px;
-        font-family: 'Times New Roman', Times, serif;
-        color: rgb(4, 54, 4);
+nav ul li a{
+    color: pink;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+#about{
+    font-size: 25px;
+    color: deeppink;
+    padding: 20px;
+    font-style: inherit;
+    -webkit-highlight: 300px;
+    text-align: -webkit-match-parent;
+    font-weight: bold;
+    text-align: justify;
+    background: wheat;
+
+}
+
+#work{
+    text-align: justify;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    color: deeppink;
+    background-color: whitesmoke;   
+}
+
+.work1{
+    background: wheat;
+    padding: 7px 10px 10px 7px;
+    text-shadow: chocolate;
+    text-align: justify;
+    text-transform: capitalize;
 
 
-    }
+}
+
+#list{
+    padding: 20px 48px;
+    width: auto;
+    float: left;
+    text-align: left;
+    background-color: beige;
+}
+
+#welcome{
+
+    padding: 20px 40px;
+    background-color: wheat;
+    text-align: justify;
+    color: deeppink;
+    text-align: center;
+    text-decoration: wavy;
+    font-family: auto;
+    font-stretch: extra-expanded;
+    font-size: 16px;
+
+
+}
+.color{
+
+    padding: 42px 19px;
+    background: #deb465;
+    font-size: 20px;
+    color: deeppink;
+    font-stretch: normal;
+    font-style: initial;
+    text-transform: initial;
+    margin: -9px;
+
+}
+
+
+#namecolor{
+
+    background: beige;
+    padding: 23px 10px;
+    color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
